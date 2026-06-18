@@ -3,53 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rolagem de dados</title>
+    <title>Ficha de RPG</title>
     <link rel="stylesheet" href="estilagem.css">
 </head>
 <body>
     <header>Ficha Feitiçeiros e maldições</header>
-    
-    <h1>Nome:<input type="text"></h1>
+    <h1>Atributos</h1>
+    <table border="1">
+        <tr>
+            <th>Atributo</th>
+            <th>Valor</th>
+            <th>Modificador</th>
+            <th>Atributo</th>
+            <th>Valor</th>
+            <th>Modificador</th>
+        </tr>
 
-        <p>Nível <input type="number"></p>
-        <p>Maestria <input type="number"></p>
-        <p>Experiência <input type="number"></p>
- 
-    <h7>ATRIBUTOS</h7>
-    
-        <p>Força</p>            <p>Inteligencia</p>
-        <p>Deatreza</p>         <p>Sabedoria</p>
-        <p>Constituição</p>     <p>Carisma</p>
+        <tr>
+            <td>Força</td>
+            <td><input type="number" id="valFor"></td>
+            <td id="modFor"></td>
+            <td>Inteligência</td>
+            <td><input type="number" id="valInt"></td>
+            <td id="modInt"></td>
+        </tr>
 
-        <h8>Perícias</h8>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
-        <p></p><p></p>
+        <tr>
+            <td>Destreza</td>
+            <td><input type="number" id="valDes"></td>
+            <td id="modDes"></td>
+            <td>Sabedoria</td>
+            <td><input type="number" id="valSab"></td>
+            <td id="modSab"></td>
+        </tr>
 
-    <h9>Pontos de vida</h9>
-
-    <h10>Pontos de energia amaldiçoada</h10>
-
-    <h11>Derivados</h11>
-
-    <h12>Classe de armadura</h12>
-
-    <h13>Registro Rápido</h13>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
+        <tr>
+            <td>Constituição</td>
+            <td><input type="number" id="valCons"></td>
+            <td id="modCons"></td>
+            <td>Carisma</td>
+            <td><input type="number" id="valCar"></td>
+            <td id="modCar"></td>
+        </tr>
+    </table>
 
     <script src="fun.js"></script>
 </body>
