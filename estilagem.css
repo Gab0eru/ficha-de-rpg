@@ -1,0 +1,11 @@
+/*Só funciona para todos os navegadores tirando o diferentinho do firefox( oq eu uso :) )*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0%;
+}
+/*Firefox é assim ^~^ */
+input[type="number"]{
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
