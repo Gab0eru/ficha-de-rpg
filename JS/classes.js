@@ -6,7 +6,6 @@ export class forca{
         this.modficador = #modificador;
     }
 }
-
 export class destreza{
     #valor
     #modificador
@@ -15,7 +14,6 @@ export class destreza{
         this.modficador = #modificador;
     }
 }
-
 export class constituicao{
     #valor
     #modificador
@@ -24,7 +22,6 @@ export class constituicao{
         this.modficador = #modificador;
     }
 }
-
 export class inteligencia{
     #valor
     #modificador
@@ -33,7 +30,6 @@ export class inteligencia{
         this.modficador = #modificador;
     }
 }
-
 export class sabedoria{
     #valor
     #modificador
@@ -42,7 +38,6 @@ export class sabedoria{
         this.modficador = #modificador;
     }
 }
-
 export class carisma{
     #valor
     #modificador
