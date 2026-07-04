@@ -1,5 +1,2 @@
 import { forca, destreza, constituicao, inteligencia, sabedoria, carisma } from "./classes";
-const forca = document.getElementById("valFor");
-
-
-
+new forca = document.getElementById("valFor");
