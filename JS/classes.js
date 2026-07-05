@@ -5,6 +5,12 @@ export class forca{
         this.valor = #valor;
         this.modficador = #modificador;
     }
+    get valor(){
+        return this.#valor;
+    }
+    get modficador(){
+        return this.#modificador;
+    }
 }
 export class destreza{
     #valor
@@ -13,13 +19,25 @@ export class destreza{
         this.valor = #valor;
         this.modficador = #modificador;
     }
-}
+    get valor(){
+        return this.#valor;
+    }
+    get modficador(){
+        return this.#modificador;
+    }
+}    
 export class constituicao{
     #valor
     #modificador
     constructor(valor, modficador){
         this.valor = #valor;
         this.modficador = #modificador;
+    }
+    get valor(){
+        this.#valor;
+    }
+    get modficador(){
+        this.#modificador;
     }
 }
 export class inteligencia{
@@ -29,6 +47,12 @@ export class inteligencia{
         this.valor = #valor;
         this.modficador = #modificador;
     }
+    get valor(){
+        return this.#valor;
+    }
+    get modficador(){
+        return this.#modificador;
+    }
 }
 export class sabedoria{
     #valor
@@ -37,6 +61,12 @@ export class sabedoria{
         this.valor = #valor;
         this.modficador = #modificador;
     }
+    get valor(){
+        return this.#valor;
+    }
+    get modficador(){
+        return this.#modificador;
+    }
 }
 export class carisma{
     #valor
@@ -44,5 +74,11 @@ export class carisma{
     constructor(valor, modficador){
         this.valor = #valor;
         this.modficador = #modificador;
+    }
+    get valor(){
+        return this.#valor;
+    }
+    get modficador(){
+        return this.#modificador;
     }
 }
